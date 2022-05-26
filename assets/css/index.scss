@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+$color-purple: #4B0082;
+
+html {
+    overflow-y: hidden;
+}
+
+.container {
+    background-color: $color-purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nameProject h1 {
+    color: white;
+}
+
+.imageLogo img {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.nameProject {
+    padding: 15px;
+}
+
+.imageLogo img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.inputs input {
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    color: black;
+}
+
+.inputs input:nth-child(3) {
+    background-color: #0057e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.inputs input:nth-child(3):hover {
+    background-color: lightblue;
+    color: black;
+}
+
+input {
+    margin: 15px;
+    border: none;
+}
+
+input::placeholder {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.auth {
+    background-color: #4285F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+a {
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #D33C30;
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+
+    p {
+        margin-bottom: 0;
+        padding-left: 10px;
+    }
+}

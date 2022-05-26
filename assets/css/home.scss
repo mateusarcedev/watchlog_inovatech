@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$color-purple: #4B0082;
+$color-white: #fff;
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.aside {
+    background-color: $color-purple;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-direction: column;
+        font-size: 20px;
+        height: 100%;
+
+        li {
+            list-style: none;
+            margin-left: 5px;
+            display: flex;
+            align-items: center;
+            font-size: 26px;
+        }
+
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-white;
+    }
+
+    .fa-solid {
+        margin-right: 10px;
+        color: $color-white
+    }
+
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+
+    .comments {
+        width: 100%;
+        .card-comment {
+            width: 100%;
+            height: 100%;
+            background: $color-white;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            border: 1px solid $color-purple;
+            padding: 10px;
+            flex-wrap: wrap;
+
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+
+            .top-comment {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            textarea {
+                width: 90%;
+                margin-left: 15px;
+                resize: none;
+                border-radius: 5px;
+                padding: 5px;
+            }
+
+            .col-auto {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 10px;
+            }
+
+        }
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .aside {
+        width: 50px;
+    }
+}
