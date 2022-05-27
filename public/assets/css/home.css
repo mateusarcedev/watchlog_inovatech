@@ -18,6 +18,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
 .aside ul {
   display: flex;
   justify-content: space-evenly;
@@ -26,6 +27,7 @@
   font-size: 20px;
   height: 100%;
 }
+
 .aside ul li {
   list-style: none;
   margin-left: 5px;
@@ -33,10 +35,12 @@
   align-items: center;
   font-size: 26px;
 }
+
 .aside a {
   text-decoration: none;
   color: #fff;
 }
+
 .aside .fa-solid {
   margin-right: 10px;
   color: #fff;
@@ -54,16 +58,24 @@ main {
 
 .pubs {
   margin-top: 30px;
+  border: 1px solid;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .mensagem {
-font-size: 20px;
-text-align: justify;
+  font-size: 20px;
+  text-align: justify;
 }
 
 main .comments {
   width: 100%;
 }
+
 main .comments .card-comment {
   width: 100%;
   height: 100%;
@@ -77,12 +89,14 @@ main .comments .card-comment {
   align-items: flex-start;
   justify-content: center;
 }
+
 main .comments .card-comment .top-comment {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 main .comments .card-comment textarea {
   width: 90%;
   margin-left: 15px;
@@ -90,6 +104,7 @@ main .comments .card-comment textarea {
   border-radius: 5px;
   padding: 5px;
 }
+
 main .comments .card-comment .col-auto {
   display: flex;
   align-items: center;
