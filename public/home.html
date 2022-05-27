@@ -33,7 +33,7 @@
             <div class="comments">
                 <div class="card-comment">
                     <div class="top-comment">
-                        <img src="assets/img/user.svg" alt="foto do usuário">
+
                         <form action="">
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="basic-addon1">Titulo</span>
@@ -41,8 +41,11 @@
                                     placeholder="Escolha um título para seu post" aria-label="Username"
                                     aria-describedby="basic-addon1">
                             </div>
-                            <textarea name="comment" id="comment" cols="60" rows="2"
-                                placeholder="Digite seu comentário"></textarea>
+                            <div class="align">
+                                <img src="assets/img/user.svg" alt="foto do usuário">
+                                <textarea name="comment" id="comment" cols="60" rows="5"
+                                    placeholder="Digite seu comentário"></textarea>
+                            </div>
                     </div>
                     <div class="mb-3">
 
@@ -52,11 +55,14 @@
                         </form>
                     </div>
                     <div>
-                        <input class="form-control" type="file" placeholder="escolha um arquivo" id="file-ip-1" accept="image/*"
-                            onchange="showPreview(event);">
+                        <input class="form-control" type="file" placeholder="escolha um arquivo" id="file-ip-1"
+                            accept="image/*" onchange="showPreview(event);">
                     </div>
                 </div>
             </div>
+            <br>
+            <br>
+            <h1>Publicações</h1>
 
             <div class="pubs">
                 <h2 id="titulo"></h2>

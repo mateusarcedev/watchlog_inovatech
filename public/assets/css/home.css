@@ -65,6 +65,8 @@ main {
   justify-content: center;
   flex-direction: column;
   padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .mensagem {
@@ -83,7 +85,7 @@ main .comments .card-comment {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   border: 1px solid #4B0082;
-  padding: 10px;
+  padding: 15px;
   flex-wrap: wrap;
   display: flex;
   align-items: flex-start;
@@ -103,6 +105,7 @@ main .comments .card-comment textarea {
   resize: none;
   border-radius: 5px;
   padding: 5px;
+  text-align: justify;
 }
 
 main .comments .card-comment .col-auto {
@@ -164,4 +167,8 @@ main .comments .card-comment .col-auto {
 
 .preview img {
   width: 100%;
+}
+
+.align {
+  display: flex;
 }
